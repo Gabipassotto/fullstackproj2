@@ -2,6 +2,10 @@
 
 Aplicacao SPA para busca e cadastro de pratos, seguindo a mesma tematica de comida usada no Projeto 1. O seed busca imagens reais na API TheMealDB (a Foodish, usada no Projeto 1, foi descontinuada pelo proprietario). React no frontend, Express no backend, MongoDB como banco de dados e Redis para cache e blacklist de tokens.
 
+## Alunos
+- Lucas Silva Teixeira - 2465329
+- Gabriela Rocha Passotto - 2454351
+
 ## Estrutura
 
 ```text
@@ -29,7 +33,8 @@ Aplicacao SPA para busca e cadastro de pratos, seguindo a mesma tematica de comi
 
 ## Variaveis de ambiente
 
-Copie `backend/.env.example` para `backend/.env`:
+Por fins de facilitar a execução, removemos do `.gitignore` as variáveis de ambiente, porém estão listadas: 
+`backend/.env`:
 
 ```env
 PORT=3333
@@ -40,7 +45,7 @@ JWT_EXPIRES_IN=1h
 FRONTEND_URL=http://localhost:5173
 ```
 
-Copie `frontend/.env.example` para `frontend/.env`:
+`frontend/.env`
 
 ```env
 VITE_API_URL=http://localhost:3333
